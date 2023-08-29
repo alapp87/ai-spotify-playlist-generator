@@ -46,7 +46,7 @@ def main():
             track_ids.append(track_id)
 
     log.info("Creating playlist...")
-    playlist = create_playlist(sp, playlist_name, track_ids)
+    playlist = create_playlist(sp, playlist_name)
     add_tracks_to_playlist(sp, current_user["id"], playlist, track_ids)
 
     log.info(

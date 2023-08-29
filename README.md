@@ -20,14 +20,7 @@ Before using the tool, you need to set up the necessary credentials and environm
 
 ## Installation
 
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/alapp87/ai-spotify-playlist-generator.git
-   cd ai-spotify-playlist-generator
-   ```
-
-2. Install the required Python packages using `pip`:
+1. Install the required Python packages using `pip`:
 
    ```bash
    pip install -r requirements.txt
